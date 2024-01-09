@@ -40,12 +40,11 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
 server.error.include-stacktrace = never
 
 server.port = 8090
----------------------------------------------------------------------------------
 mvn spring-boot:run
 The API will be accessible at http://localhost:8090/customer/save for POST method.
 http://localhost:8090/customer/retrieve/email=abc@gmail.com 
 := for GET method. Its uses emailId for retrieve the information from database
----------------------------------------------------------------------------------
+
 Endpoints
 Get All Customers
 Endpoint: /api/customers
