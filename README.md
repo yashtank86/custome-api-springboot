@@ -27,7 +27,7 @@ Copy code
 git clone https://github.com/yashtank86/customer-api-springboot.git
 
 Navigate to the project directory:
-<img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a"></br>
+<img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a">&nvsp; &nvsp;
 
 
 
@@ -61,7 +61,7 @@ Endpoint: /customer/save
 Method: POST
 
 Description: Add a new customer to the database.
-<img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b"></br>
+<img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b">&nvsp; &nvsp;
 
 
 
