@@ -30,6 +30,8 @@ Navigate to the project directory:
 <img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a">
 
 
+
+
 Configure the MySQL database connection in application.properties.
 spring.datasource.url = jdbc:mysql://localhost:9090/customer-management-system
 spring.datasource.username = root
@@ -60,6 +62,9 @@ Method: POST
 
 Description: Add a new customer to the database.
 <img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b">
+
+
+
 
 
 The project utilizes the following dependencies:
