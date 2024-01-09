@@ -77,7 +77,7 @@ Welcome to the Customer API documentation! This API is built with Spring Boot, u
     🌐 Tech Stack:
     🖥️ Java | Spring Boot | Hibernate
     🛢️ MySQL
-    🚀 RESTful APIs | Microservices Architecture
+    🚀 RESTful APIs
     🔧 Git | Maven
   
 All dependencies are managed using Maven.
