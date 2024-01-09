@@ -63,10 +63,9 @@ Endpoint: /customer/save
 Method: POST
 
 Description: Add a new customer to the database.
-<img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b">&nvsp; &nvsp;
-
-
-
+| MySql |
+|:-:|
+| <img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b"> |
 
 
 The project utilizes the following dependencies:
@@ -76,6 +75,12 @@ Spring Data JPA
 MySQL Connector
 Spring Web
 All dependencies are managed using Maven.
+
+## Screenshorts
+| POST {Create an customer} |
+|:-:|
+| ![img1](https://github.com/yashtank86/customer-api-springboot/assets/52051877/fd2e0a4c-d759-4965-a580-50fd239a7050) |
+
 
 Usage
 Make requests to the specified endpoints using your preferred API client.
