@@ -1,18 +1,6 @@
 <h1>Customer API Documentation</h1>
 Welcome to the Customer API documentation! This API is built with Spring Boot, utilizing MySQL for data storage. It exposes endpoints to manage customer information, including id, first_name, last_name, email, and phone_number. The API is designed to be powerful, scalable, and easy to integrate into your applications.
 
-## Table of Contents
-    Installation
-    Endpoints
-    Get All Customers
-    Get Customer by emailID
-    Add a New Customer using POST Method
-    Dependencies
-    Usage
-    Java (version 8 or later)
-    Maven
-    MySQL
-    validation
 
 ## Note
         It's My First Springboot Back-end Project In which I have Implemented Rest API
