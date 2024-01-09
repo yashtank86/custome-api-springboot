@@ -2,7 +2,7 @@
 Welcome to the Customer API documentation! This API is built with Spring Boot, utilizing MySQL for data storage. It exposes endpoints to manage customer information, including id, first_name, last_name, email, and phone_number. The API is designed to be powerful, scalable, and easy to integrate into your applications.
 
 ## Table of Contents
---------------------------------------------------
+
 Getting Started
 Prerequisites
 Installation
@@ -12,7 +12,6 @@ Get Customer by ID
 Add a New Customer
 Dependencies
 Usage
---------------------------------------------------
 Getting Started
 Prerequisites
 Make sure you have the following installed:
@@ -68,18 +67,33 @@ Description: Add a new customer to the database.
 | <img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b"> |
 
 
-The project utilizes the following dependencies:
-
-Spring Boot
-Spring Data JPA
-MySQL Connector
-Spring Web
+## The project utilizes the following dependencies:
+  Spring Boot
+  Spring Data JPA
+  MySQL Connector
+  Spring Web
+  
 All dependencies are managed using Maven.
 
 ## Screenshorts
-| POST {Create an customer} |
+| GET {retrieve an customer from database using emailID} |
 |:-:|
 | ![img1](https://github.com/yashtank86/customer-api-springboot/assets/52051877/fd2e0a4c-d759-4965-a580-50fd239a7050) |
+
+
+| Screen2 |
+|:-:|
+| ![img2](https://github.com/yashtank86/customer-api-springboot/assets/52051877/5c6b1272-b20e-4256-b09c-1d4468e11955) |
+
+
+| mysql workbanch |
+|:-:|
+| ![img3](https://github.com/yashtank86/customer-api-springboot/assets/52051877/afb011de-9fff-44a0-8f32-1518bcea4da4) |
+
+
+| POST {Create an customer} |
+|:-:|
+| ![img4](https://github.com/yashtank86/customer-api-springboot/assets/52051877/731b5a1c-a81f-42d1-a8ae-1f5d3748f604) |
 
 
 Usage
