@@ -2,30 +2,34 @@
 Welcome to the Customer API documentation! This API is built with Spring Boot, utilizing MySQL for data storage. It exposes endpoints to manage customer information, including id, first_name, last_name, email, and phone_number. The API is designed to be powerful, scalable, and easy to integrate into your applications.
 
 ## Table of Contents
-
-    Getting Started
-    Prerequisites
     Installation
     Endpoints
     Get All Customers
-    Get Customer by ID
-    Add a New Customer
+    Get Customer by emailID
+    Add a New Customer using POST Method
     Dependencies
     Usage
-    Getting Started
-    Prerequisites
-    Make sure you have the following installed:
-
     Java (version 8 or later)
     Maven
     MySQL
     validation
 
+## Note
+        It's My First Springboot Back-end Project In which I have Implemented Rest API
+        and also uses postman to test api:)
+
+        🌟 Thank you, me, for making it happen! Let's keep coding and building awesome things! 🚀
+
+        🚀 Key Achievements:
+
+        Developed a RESTful API that showcases my proficiency in Java and Spring Boot.
+        Successfully handled the integration of MySQL, ensuring data persistence and reliability.
+        Demonstrated a commitment to best practices, documentation, and a user-friendly API design.
 
 ## git clone https://github.com/yashtank86/customer-api-springboot.git
 
 ## Navigate to the project directory:
-| Structure Directories |
+| Directory Structure  |
 |:-:|
 | <img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a"> |
 
@@ -42,7 +46,8 @@ Welcome to the Customer API documentation! This API is built with Spring Boot, u
     server.error.include-stacktrace = never
 
     server.port = 8090
-    mvn spring-boot:run
+    
+## mvn spring-boot:run
     The API will be accessible at http://localhost:8090/customer/save for POST method.
     http://localhost:8090/customer/retrieve/email=abc@gmail.com 
     := for GET method. Its uses emailId for retrieve the information from database
@@ -55,10 +60,11 @@ Description: Add a new customer to the database.
 
 
 ## The project utilizes the following dependencies:
-  Spring Boot
-  Spring Data JPA
-  MySQL Connector
-  Spring Web
+    🌐 Tech Stack:
+    🖥️ Java | Spring Boot | Hibernate
+    🛢️ MySQL | MongoDB
+    🚀 RESTful APIs | Microservices Architecture
+    🔧 Git | Maven
   
 All dependencies are managed using Maven.
 
