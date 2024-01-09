@@ -16,6 +16,19 @@ Welcome to the Customer API documentation! This API is built with Spring Boot, u
 
 ## git clone https://github.com/yashtank86/customer-api-springboot.git
 
+## Prerequisites
+        Maven 3+.
+        MySQL Workbench 8+.
+        Postman v9+.
+
+## Generate the Project
+        Go to the website Spring Initializr to initialize the Spring Boot project. Add the following dependencies:
+        Spring Boot DevTools: for the development tools.
+        Lombok: to reduce boilerplate code (for example, getters and setters).
+        Spring Web: to embed Apache Tomcat and include Spring MVC.
+        Spring Data JPA: to facilitate the database layer.
+        MySQL Driver: to enable communication between the Spring Boot application and the database.
+
 ## Navigate to the project directory:
 | Directory Structure  |
 |:-:|
@@ -47,10 +60,10 @@ Description: Add a new customer to the database.
 | <img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b"> |
 
 
-## The project utilizes the following dependencies:
+## The project utilizes the following Tech:
     🌐 Tech Stack:
     🖥️ Java | Spring Boot | Hibernate
-    🛢️ MySQL | MongoDB
+    🛢️ MySQL
     🚀 RESTful APIs | Microservices Architecture
     🔧 Git | Maven
   
