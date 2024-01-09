@@ -53,7 +53,7 @@ Welcome to the Customer API documentation! This API is built with Spring Boot, u
     http://localhost:8090/customer/retrieve/email=abc@gmail.com 
     := for GET method. Its uses emailId for retrieve the information from database
 
-## Testing with Postman
+Testing with Postman
         Test the application using Postman.
         Add a couple of customers.
         
