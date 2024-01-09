@@ -1,7 +1,7 @@
 <h1>Customer API Documentation</h1>h1
 Welcome to the Customer API documentation! This API is built with Spring Boot, utilizing MySQL for data storage. It exposes endpoints to manage customer information, including id, first_name, last_name, email, and phone_number. The API is designed to be powerful, scalable, and easy to integrate into your applications.
 
-Table of Contents
+## Table of Contents
 --------------------------------------------------
 Getting Started
 Prerequisites
@@ -27,7 +27,9 @@ Copy code
 git clone https://github.com/yashtank86/customer-api-springboot.git
 
 Navigate to the project directory:
-<img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a">&nvsp; &nvsp;
+| Structure Directories |
+|:-:|
+| <img width="220" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/cad2dbab-44d4-434d-8c9b-80b388949e0a"> |
 
 
 
