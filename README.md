@@ -53,8 +53,20 @@ Welcome to the Customer API documentation! This API is built with Spring Boot, u
     http://localhost:8090/customer/retrieve/email=abc@gmail.com 
     := for GET method. Its uses emailId for retrieve the information from database
 
+## Testing with Postman
+        Test the application using Postman.
+        Add a couple of customers.
+        
+## Enter the body of the request:
+        {
+            "first_name": "rahul",
+            "last_name": "sharma",
+            "email": "rs@gmail.com",
+            "phoneNumber": "9515517878"
+        }
 
-Description: Add a new customer to the database.
+
+## Select SEND, and rahul sharma will be saved into the database
 | MySql |
 |:-:|
 | <img width="304" alt="image" src="https://github.com/yashtank86/custome-api-springboot/assets/52051877/10547848-937a-4660-a72c-dd534a7e232b"> |
