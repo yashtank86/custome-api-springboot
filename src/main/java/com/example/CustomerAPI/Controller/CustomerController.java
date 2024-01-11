@@ -36,25 +36,25 @@ public class CustomerController {
 
    @RequestMapping(method = {PUT}, path = "/update")
    @ResponseBody
-   public ResponseEntity<Customer> updateCustomer(@Valid @RequestBody Customer uCustomer , @RequestParam String email){
+   public ResponseEntity<Customer> updateCustomer(@Valid @RequestBody Customer customer,@RequestParam String email ){
 
-      Customer updatedcustomer = customerRepo.findCustomerByEmail(email);
+      Customer updatedCustomer = customerRepo.findCustomerByEmail(email);
 
-      updatedcustomer.setFirst_name(uCustomer.getFirst_name());
-      updatedcustomer.setLast_name(uCustomer.getLast_name());
-      updatedcustomer.setEmail(uCustomer.getEmail());
-      updatedcustomer.setPhoneNumber(uCustomer.getPhoneNumber());
-      customerRepo.save(updatedcustomer);
-      return ResponseEntity.ok(uCustomer);
+      updatedCustomer.setFirst_name(customer.getFirst_name());
+      updatedCustomer.setLast_name(customer.getLast_name());
+      updatedCustomer.setEmail(customer.getEmail());
+      updatedCustomer.setPhoneNumber(customer.getPhoneNumber());
+      customerRepo.save(updatedCustomer);
+      return ResponseEntity.ok(customer);
    }
 
    @DeleteMapping("/delete")
    public ResponseEntity<String> deleteCustomer(@RequestParam String email){
 
       Customer deleteCustomer = customerRepo.findCustomerByEmail(email);
-      deleteCustomer.getEmail();
-
-      return ResponseEntity.ok("customer deleted successfully!!");
+     if( deleteCustomer.getEmail().equals(email)) customerRepo.delete(deleteCustomer);
+     else ResponseEntity.ok("something went wrong!!");
+     return ResponseEntity.ok("customer deleted successfully!!");
    }
 
 }

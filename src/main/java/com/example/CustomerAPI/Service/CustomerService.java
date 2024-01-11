@@ -3,9 +3,9 @@ package com.example.CustomerAPI.Service;
 import com.example.CustomerAPI.Model.Customer;
 import com.example.CustomerAPI.Repository.CustomerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Optional;
 
@@ -30,7 +30,6 @@ public class CustomerService {
         Customer customer = customerRepo.findCustomerByEmail(email);
         return Optional.ofNullable(customer);
     }
-
 
 
 }
