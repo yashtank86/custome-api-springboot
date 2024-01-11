@@ -3,6 +3,8 @@ package com.example.CustomerAPI.Service;
 import com.example.CustomerAPI.Model.Customer;
 import com.example.CustomerAPI.Repository.CustomerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -22,6 +24,7 @@ public class CustomerService {
         customer.setPhoneNumber(savedCustomer.getPhoneNumber());
         return customerRepo.save(savedCustomer);
     }
+
 
     public Optional<Customer> getCustomerByEmail(String email){
         Customer customer = customerRepo.findCustomerByEmail(email);
