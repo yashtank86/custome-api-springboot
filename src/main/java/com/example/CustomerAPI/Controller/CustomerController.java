@@ -44,6 +44,7 @@ public class CustomerController {
       updatedCustomer.setLast_name(customer.getLast_name());
       updatedCustomer.setEmail(customer.getEmail());
       updatedCustomer.setPhoneNumber(customer.getPhoneNumber());
+      updatedCustomer.setPassword(customer.getPassword());
       customerRepo.save(updatedCustomer);
       return ResponseEntity.ok(customer);
    }

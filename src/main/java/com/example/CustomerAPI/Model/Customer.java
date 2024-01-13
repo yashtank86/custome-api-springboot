@@ -3,15 +3,19 @@ package com.example.CustomerAPI.Model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
-import lombok.Data;
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name ="customer")
 @Data
 public class Customer {
 
     @Id
-    @GeneratedValue() // strategy = GenerationType.AUTO
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // strategy = GenerationType.AUTO
     @Column(name ="id")
     private Integer id;
 
@@ -23,11 +27,22 @@ public class Customer {
 
     @NotEmpty
     @Email
-    @Column
+    @Column(nullable=false, unique=true)
     private String email;
 
     @Column(name = "phone_number")
     private String phoneNumber;
+
+    @Column(nullable=false, name = "c_password")
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public Integer getId() {
         return id;
@@ -68,9 +83,6 @@ public class Customer {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
-
-
 
 
 
